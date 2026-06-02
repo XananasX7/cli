@@ -1,5 +1,11 @@
 # Changelog
 
+## [9.7.1](https://github.com/npm/cli/compare/arborist-v9.7.0...arborist-v9.7.1) (2026-06-02)
+### Bug Fixes
+* [`39d034d`](https://github.com/npm/cli/commit/39d034d7bee3f523ebfac8215e924d466722d101) [#9455](https://github.com/npm/cli/pull/9455) sanitize package name in linked-strategy path construction (@owlstronaut)
+* [`d59c964`](https://github.com/npm/cli/commit/d59c96413f6c731b3df87556efe4f0a9706d0a6d) [#9451](https://github.com/npm/cli/pull/9451) reject path traversal entries when inflating dependency shrinkwraps (@owlstronaut)
+* [`c9045d5`](https://github.com/npm/cli/commit/c9045d5885fa1338b7d32fa845aea0bfeab01657) [#9429](https://github.com/npm/cli/pull/9429) arborist: read install scripts from disk on lockfile installs instead of a sentinel (@JamieMagee)
+
 ## [9.7.0](https://github.com/npm/cli/compare/arborist-v9.6.0...arborist-v9.7.0) (2026-05-27)
 ### Features
 * [`a10c7ca`](https://github.com/npm/cli/commit/a10c7caf3ad9d2d5e17234c5c5e615dbce7717f9) [#9415](https://github.com/npm/cli/pull/9415) Phase 1 of `allowScripts` opt-in install-script policy (#9360) (#9415) (@owlstronaut, @JamieMagee)

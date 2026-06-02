@@ -48,6 +48,15 @@
 
 * [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.6.0): `@npmcli/arborist@9.6.0`
 
+## [10.2.10](https://github.com/npm/cli/compare/libnpmexec-v10.2.9...libnpmexec-v10.2.10) (2026-06-02)
+### Bug Fixes
+* [`1bb1b8c`](https://github.com/npm/cli/commit/1bb1b8c2606b0bf19b9267a8a8c05e43df6d02ad) [#9467](https://github.com/npm/cli/pull/9467) escape executable name in libnpmexec run-script (#9467) (@github-actions[bot], @rootvector2)
+
+
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.7.1): `@npmcli/arborist@9.7.1`
+
 ## [10.2.9](https://github.com/npm/cli/compare/libnpmexec-v10.2.8...libnpmexec-v10.2.9) (2026-05-27)
 ### Bug Fixes
 * [`5000cbf`](https://github.com/npm/cli/commit/5000cbf24f25b5b26beb0db06d5d9f23d698241a) [#9409](https://github.com/npm/cli/pull/9409) exempt local project introspection from allow-directory (@owlstronaut)

@@ -1,5 +1,23 @@
 # Changelog
 
+## [11.16.1](https://github.com/npm/cli/compare/v11.16.0...v11.16.1) (2026-06-02)
+### Bug Fixes
+* [`7ade52e`](https://github.com/npm/cli/commit/7ade52ea4059ca75e83f10e892b24581624acef9) [#9465](https://github.com/npm/cli/pull/9465) invalid issue template YAML indentation (#9465) (@github-actions[bot], @fallintoplace)
+* [`c069622`](https://github.com/npm/cli/commit/c0696225d8792e461989214ba7d8886dfd862b4a) [#9464](https://github.com/npm/cli/pull/9464) show full parent command path in subcommand usage errors (#9464) (@owlstronaut)
+* [`1bb62bb`](https://github.com/npm/cli/commit/1bb62bb639d1f791a0c51d236fba01c25c58992e) [#9454](https://github.com/npm/cli/pull/9454) config: clarify --all help so it's accurate for approve-scripts and deny-scripts (@JamieMagee)
+* [`84eeb5f`](https://github.com/npm/cli/commit/84eeb5fe9db14e01ebc44999ebe126224a78eb83) [#9431](https://github.com/npm/cli/pull/9431) audit: don't apply min-release-age before filter when verifying installed signatures (@JamieMagee)
+* [`3bd3377`](https://github.com/npm/cli/commit/3bd3377f207732b47655ea3a896d53046df199c4) [#9426](https://github.com/npm/cli/pull/9426) block forbidden keys in Queryable setter to prevent prototype pollution (@12122J, @claude)
+
+
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.7.1): `@npmcli/arborist@9.7.1`
+* [workspace](https://github.com/npm/cli/releases/tag/config-v10.10.1): `@npmcli/config@10.10.1`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmdiff-v8.1.10): `libnpmdiff@8.1.10`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v10.2.10): `libnpmexec@10.2.10`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.24): `libnpmfund@7.0.24`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.10): `libnpmpack@9.1.10`
+
 ## [11.16.0](https://github.com/npm/cli/compare/v11.15.0...v11.16.0) (2026-05-27)
 ### Features
 * [`4b67f6e`](https://github.com/npm/cli/commit/4b67f6ed21a8bf7e47ae78b7fc9cc9fbdfa95057) [#9416](https://github.com/npm/cli/pull/9416) publish --access=private alias for restricted (#9416) (@github-actions[bot], @reggi, @Copilot)
